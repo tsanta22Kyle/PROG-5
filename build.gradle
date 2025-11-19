@@ -23,6 +23,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     implementation("org.projectlombok:lombok:1.18.42")
+    annotationProcessor 'org.projectlombok:lombok:1.18.42'
 }
 
 test {
